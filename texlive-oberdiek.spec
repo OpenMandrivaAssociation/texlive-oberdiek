@@ -1,3 +1,9 @@
+# revision 22180
+# category Package
+# catalog-ctan /macros/latex/contrib/oberdiek
+# catalog-date 2011-04-12 16:53:23 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-oberdiek
 Version:	20110412
 Release:	1
@@ -764,6 +770,7 @@ running the .dtx file with Plain TeX.
 %doc %{_texmfdistdir}/source/latex/oberdiek/twoopt.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/uniquecounter.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/zref.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -773,4 +780,6 @@ running the .dtx file with Plain TeX.
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
-cp -fpar bibtex tex scripts doc source %{buildroot}%{_texmfdistdir}
+cp -fpar bibtex scripts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
