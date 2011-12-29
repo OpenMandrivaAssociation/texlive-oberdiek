@@ -18,9 +18,6 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
-Conflicts:	texlive-source <= 20110705-3
 
 %description
 The bundle comprises packages to provide: - accsupp: better
@@ -120,20 +117,12 @@ represented by two files, a .dtx (documented source) and a PDF
 file; the .ins file necessary for installation is extracted by
 running the .dtx file with Plain TeX.
 
-%pre
-    %_texmf_mktexlsr_pre
-
 %post
-    %_texmf_mktexlsr_post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_pre
-    fi
+    %{_sbindir}/texlive.post
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_post
+	%{_sbindir}/texlive.post
     fi
 
 #-----------------------------------------------------------------------
@@ -771,7 +760,6 @@ running the .dtx file with Plain TeX.
 %doc %{_texmfdistdir}/source/latex/oberdiek/twoopt.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/uniquecounter.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/zref.dtx
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -782,5 +770,3 @@ running the .dtx file with Plain TeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex scripts tex doc source %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
