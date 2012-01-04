@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-oberdiek
 Version:	20110412
-Release:	1
+Release:	2
 Summary:	A bundle of packages submitted by Heiko Oberdiek
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/oberdiek
