@@ -1,12 +1,12 @@
-# revision 22180
+# revision 26177
 # category Package
 # catalog-ctan /macros/latex/contrib/oberdiek
-# catalog-date 2011-04-12 16:53:23 +0200
+# catalog-date 2012-03-30 15:19:52 +0200
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-oberdiek
-Version:	20110412
-Release:	2
+Version:	20120330
+Release:	1
 Summary:	A bundle of packages submitted by Heiko Oberdiek
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/oberdiek
@@ -51,71 +51,73 @@ string containing the title of a section, etc.; - grfext:
 macros for adding and reordering the list of graphics file
 extensions recognised by the graphics package; - grffile:
 extend file name processing in the graphics bundle; - hosub:
-build collections of packages; - hologo: bookmark-enabled
-logos; - hopatch: safely apply package patches; - hycolor:
-implements the color option stuff that is used by packages
-hyperref and bookmark; - hypbmsec: bookmarks in sectioning
-commands; - hypcap: anjusting anchors of captions; -
-hypdestopt: optimising hyperref's pdftex driver destinations; -
-hypdoc: hyper-references in the LaTeX standard doc package; -
-hypgotoe: experimental package for links to embedded files; -
-hyphsubst: substitute hyphenation patterns; - ifdraft: switch
-for option draft; - iflang: provides expandable checks for the
-current language; - ifluatex: looks for LuaTeX regardless of
-its mode and provides the switch \ifluatex; - ifpdf: provides
-the ifpdf switch; - ifvtex: provides the \ifvtex switch; -
-infwarerr: provides a complete set of macros for informations,
-warnings and error messages with support for plain TeX; -
-inputenx: enhanced handling of input encoding; - intcalc:
-provides expandable arithmetic operations with integers; -
-kvdefinekeys: define key-value keys in the same manner as
-keyval; - kvoptions: use package options in key value format ;
-- kvsetkeys: a variant of the \setkeys command; - letltxmacro:
-Let assignment for LaTeX macros; - listingsutf8: (partially)
-extends the listings package to UTF-8 encoding; - ltxcmds:
-exports some utility macros from the LaTeX kernel into a
-separate namespace and also provides them for other formats
-such as plain-TeX; - luacolor: implements colour support based
-on LuaTeX's node attributes; - luatex: utilises new and
-extended features and resources that LuaTeX provides; -
-magicnum: allows to access magic numbers by a hierarchical name
-system; - makerobust: make a command robust; - pagegrid: prints
-a page grid in the background; - pagesel: select pages of a
-document for output; - pdfcolfoot: using pdftex's color stack
-for footnotes; - pdfcol: macros for setting and maintaining new
-color stacks; - pdfcolmk: PDFTeX COLour MarK -- fake a PDFTeX
-colour stack using marks (not needed for PDFTeX 1.40.0 and
-later); - pdfcolparallel: fixes colour problems in package
-parallel; - pdfcolparcolumns: fixes colour problems in package
-parcolumns; - pdfcrypt: setting PDF encryption; - pdfescape:
-pdfTeX's escape features using TeX or e-TeX; - pdflscape:
-landscape pages in PDF; - pdftexcmds: provide PDFTeX primitives
-missing in LuaTeX; - picture: dimens for picture macros; -
-pmboxdraw: poor man's box drawing characters; - protecteddef:
-define a command that protected against expansion; - refcount:
-using the numeric values of references; - rerunfilecheck:
-checksum based rerun checks on auxiliary files; - resizegather:
-automatically resize overly large equations; - rotchiffre:
-performs simple rotation cyphers; - scrindex: redefines
-environment 'theindex' of package 'index', if a class from
-KOMA-Script is loaded; - selinput: select the input encoding by
-specifying pairs of input characters and their glyph names; -
-setouterhbox: set \hbox in outer horizontal mode; - settobox:
-getting box sizes; - soulutf8: extends package soul and adds
-some support for UTF-8; - stackrel: extensions of the \stackrel
-command; - stampinclude: selects the files for \include by
-inspecting the timestamp of the .aux file(s); - stringenc:
-provides \StringEncodingConvert for converting a string between
-different encodings; - tabularht: tabulars with height
-specification; - tabularkv: key value interface for tabular
-parameters; - telprint: print German telephone directories; -
-transparent: using a color stack for transparency with pdftex;
-- twoopt: commands with two optional arguments; -
-uniquecounter: provides unlimited unique counter; - zref: a
-proposed new reference system. Each of the packages is
-represented by two files, a .dtx (documented source) and a PDF
-file; the .ins file necessary for installation is extracted by
-running the .dtx file with Plain TeX.
+build collections of packages; - holtxdoc: extra documentation
+macros; - hologo: bookmark-enabled logos; - hopatch: safely
+apply package patches; - hycolor: implements the color option
+stuff that is used by packages hyperref and bookmark; -
+hypbmsec: bookmarks in sectioning commands; - hypcap: anjusting
+anchors of captions; - hypdestopt: optimising hyperref's pdftex
+driver destinations; - hypdoc: hyper-references in the LaTeX
+standard doc package; - hypgotoe: experimental package for
+links to embedded files; - hyphsubst: substitute hyphenation
+patterns; - ifdraft: switch for option draft; - iflang:
+provides expandable checks for the current language; -
+ifluatex: looks for LuaTeX regardless of its mode and provides
+the switch \ifluatex; - ifpdf: provides the ifpdf switch; -
+ifvtex: provides the \ifvtex switch; - infwarerr: provides a
+complete set of macros for informations, warnings and error
+messages with support for plain TeX; - inputenx: enhanced
+handling of input encoding; - intcalc: provides expandable
+arithmetic operations with integers; - kvdefinekeys: define
+key-value keys in the same manner as keyval; - kvoptions: use
+package options in key value format ; - kvsetkeys: a variant of
+the \setkeys command; - letltxmacro: Let assignment for LaTeX
+macros; - listingsutf8: (partially) extends the listings
+package to UTF-8 encoding; - ltxcmds: exports some utility
+macros from the LaTeX kernel into a separate namespace and also
+provides them for other formats such as plain-TeX; - luacolor:
+implements colour support based on LuaTeX's node attributes; -
+luatex: utilises new and extended features and resources that
+LuaTeX provides; - magicnum: allows to access magic numbers by
+a hierarchical name system; - makerobust: make a command
+robust; - pagegrid: prints a page grid in the background; -
+pagesel: select pages of a document for output; - pdfcolfoot:
+using pdftex's color stack for footnotes; - pdfcol: macros for
+setting and maintaining new color stacks; - pdfcolmk: PDFTeX
+COLour MarK -- fake a PDFTeX colour stack using marks (not
+needed for PDFTeX 1.40.0 and later); - pdfcolparallel: fixes
+colour problems in package parallel; - pdfcolparcolumns: fixes
+colour problems in package parcolumns; - pdfcrypt: setting PDF
+encryption; - pdfescape: pdfTeX's escape features using TeX or
+e-TeX; - pdflscape: landscape pages in PDF; - pdfrender:
+control PDF rendering modes; - pdftexcmds: provide PDFTeX
+primitives missing in LuaTeX; - picture: dimens for picture
+macros; - pmboxdraw: poor man's box drawing characters; -
+protecteddef: define a command that protected against
+expansion; - refcount: using the numeric values of references;
+- rerunfilecheck: checksum based rerun checks on auxiliary
+files; - resizegather: automatically resize overly large
+equations; - rotchiffre: performs simple rotation cyphers; -
+scrindex: redefines environment 'theindex' of package 'index',
+if a class from KOMA-Script is loaded; - selinput: select the
+input encoding by specifying pairs of input characters and
+their glyph names; - setouterhbox: set \hbox in outer
+horizontal mode; - settobox: getting box sizes; - soulutf8:
+extends package soul and adds some support for UTF-8; -
+stackrel: extensions of the \stackrel command; - stampinclude:
+selects the files for \include by inspecting the timestamp of
+the .aux file(s); - stringenc: provides \StringEncodingConvert
+for converting a string between different encodings; -
+tabularht: tabulars with height specification; - tabularkv: key
+value interface for tabular parameters; - telprint: print
+German telephone numbers; - transparent: using a color stack
+for transparency with pdftex; - twoopt: commands with two
+optional arguments; - uniquecounter: provides unlimited unique
+counter; - zref: a proposed new reference system. Each of the
+packages is represented by two files, a .dtx (documented
+source) and a PDF file; the .ins file necessary for
+installation is extracted by running the .dtx file with Plain
+TeX.
 
 %post
     %{_sbindir}/texlive.post
@@ -128,6 +130,7 @@ running the .dtx file with Plain TeX.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/bibtex/bib/oberdiek/oberdiek-bundle.bib
+%{_texmfdistdir}/bibtex/bib/oberdiek/oberdiek-source.bib
 %{_texmfdistdir}/scripts/oberdiek/luacolor-pre065.lua
 %{_texmfdistdir}/scripts/oberdiek/luacolor.lua
 %{_texmfdistdir}/scripts/oberdiek/magicnum.lua
@@ -147,6 +150,7 @@ running the .dtx file with Plain TeX.
 %{_texmfdistdir}/tex/generic/oberdiek/engord.sty
 %{_texmfdistdir}/tex/generic/oberdiek/eolgrab.sty
 %{_texmfdistdir}/tex/generic/oberdiek/etexcmds.sty
+%{_texmfdistdir}/tex/generic/oberdiek/fibnum.sty
 %{_texmfdistdir}/tex/generic/oberdiek/gettitlestring.sty
 %{_texmfdistdir}/tex/generic/oberdiek/hobsub-generic.sty
 %{_texmfdistdir}/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -216,6 +220,7 @@ running the .dtx file with Plain TeX.
 %{_texmfdistdir}/tex/generic/oberdiek/soulutf8.sty
 %{_texmfdistdir}/tex/generic/oberdiek/stringenc.sty
 %{_texmfdistdir}/tex/generic/oberdiek/telprint.sty
+%{_texmfdistdir}/tex/generic/oberdiek/thepdfnumber.sty
 %{_texmfdistdir}/tex/generic/oberdiek/uniquecounter.sty
 %{_texmfdistdir}/tex/latex/oberdiek/accsupp-dvipdfm.def
 %{_texmfdistdir}/tex/latex/oberdiek/accsupp-dvips.def
@@ -249,6 +254,7 @@ running the .dtx file with Plain TeX.
 %{_texmfdistdir}/tex/latex/oberdiek/colonequals.sty
 %{_texmfdistdir}/tex/latex/oberdiek/dtx-attach.sty
 %{_texmfdistdir}/tex/latex/oberdiek/dvipscol.sty
+%{_texmfdistdir}/tex/latex/oberdiek/enparen.sty
 %{_texmfdistdir}/tex/latex/oberdiek/epstopdf-base.sty
 %{_texmfdistdir}/tex/latex/oberdiek/epstopdf.sty
 %{_texmfdistdir}/tex/latex/oberdiek/flags.sty
@@ -303,6 +309,7 @@ running the .dtx file with Plain TeX.
 %{_texmfdistdir}/tex/latex/oberdiek/x-cp1250.def
 %{_texmfdistdir}/tex/latex/oberdiek/x-cp1251.def
 %{_texmfdistdir}/tex/latex/oberdiek/x-cp1252.def
+%{_texmfdistdir}/tex/latex/oberdiek/x-cp1255.def
 %{_texmfdistdir}/tex/latex/oberdiek/x-cp1257.def
 %{_texmfdistdir}/tex/latex/oberdiek/x-cp437.def
 %{_texmfdistdir}/tex/latex/oberdiek/x-cp850.def
@@ -381,6 +388,7 @@ running the .dtx file with Plain TeX.
 %doc %{_texmfdistdir}/doc/latex/oberdiek/embedfile-example-plain.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/embedfile.pdf
 %doc %{_texmfdistdir}/doc/latex/oberdiek/engord.pdf
+%doc %{_texmfdistdir}/doc/latex/oberdiek/enparen.pdf
 %doc %{_texmfdistdir}/doc/latex/oberdiek/eolgrab.pdf
 %doc %{_texmfdistdir}/doc/latex/oberdiek/epstopdf.pdf
 %doc %{_texmfdistdir}/doc/latex/oberdiek/etexcmds.pdf
@@ -388,6 +396,8 @@ running the .dtx file with Plain TeX.
 %doc %{_texmfdistdir}/doc/latex/oberdiek/example/eolgrab-example-env.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/example/eolgrab-example-ltx.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/example/eolgrab-example-sec.tex
+%doc %{_texmfdistdir}/doc/latex/oberdiek/example/hologo-example.tex
+%doc %{_texmfdistdir}/doc/latex/oberdiek/fibnum.pdf
 %doc %{_texmfdistdir}/doc/latex/oberdiek/flags.pdf
 %doc %{_texmfdistdir}/doc/latex/oberdiek/gettitlestring.pdf
 %doc %{_texmfdistdir}/doc/latex/oberdiek/grfext.pdf
@@ -525,12 +535,15 @@ running the .dtx file with Plain TeX.
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/etexcmds-test2.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/etexcmds-test3.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/etexcmds-test4.tex
+%doc %{_texmfdistdir}/doc/latex/oberdiek/test/fibnum-test-calc.tex
+%doc %{_texmfdistdir}/doc/latex/oberdiek/test/fibnum-test1.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/gettitlestring-test1.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/gettitlestring-test2.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/grfext-test1.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/grfext-test2.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/grffile-test1.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/hobsub-test1.tex
+%doc %{_texmfdistdir}/doc/latex/oberdiek/test/hologo-test-list.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/hologo-test-spacefactor.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/hologo-test1.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/hopatch-test1.tex
@@ -567,6 +580,7 @@ running the .dtx file with Plain TeX.
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/kvsetkeys-test1.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/kvsetkeys-test2.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/kvsetkeys-test3.tex
+%doc %{_texmfdistdir}/doc/latex/oberdiek/test/kvsetkeys-test4.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/letltxmacro-test1.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/letltxmacro-test2.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/listingsutf8-test1.tex
@@ -574,6 +588,7 @@ running the .dtx file with Plain TeX.
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/listingsutf8-test3.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/listingsutf8-test4.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/listingsutf8-test5.tex
+%doc %{_texmfdistdir}/doc/latex/oberdiek/test/ltxcmds-test-carcdr.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/ltxcmds-test-gobble.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/ltxcmds-test-ifboxempty.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/ltxcmds-test-ifempty.tex
@@ -630,6 +645,7 @@ running the .dtx file with Plain TeX.
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/refcount-test2.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/refcount-test3.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/refcount-test4.tex
+%doc %{_texmfdistdir}/doc/latex/oberdiek/test/refcount-test5.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/rerunfilecheck-test1.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/resizegather-test1.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/rotchiffre-test1.tex
@@ -649,6 +665,9 @@ running the .dtx file with Plain TeX.
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/stringenc-test1.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/stringenc-test2.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/telprint-test1.tex
+%doc %{_texmfdistdir}/doc/latex/oberdiek/test/thepdfnumber-test1.tex
+%doc %{_texmfdistdir}/doc/latex/oberdiek/test/thepdfnumber-test2.tex
+%doc %{_texmfdistdir}/doc/latex/oberdiek/test/thepdfnumber-test3.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/uniquecounter-test1.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/uniquecounter-test2.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/uniquecounter-test3.tex
@@ -656,6 +675,7 @@ running the .dtx file with Plain TeX.
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/zref-test-runs.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/zref-test-titleref-memoir.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/test/zref-test1.tex
+%doc %{_texmfdistdir}/doc/latex/oberdiek/thepdfnumber.pdf
 %doc %{_texmfdistdir}/doc/latex/oberdiek/transparent-example.tex
 %doc %{_texmfdistdir}/doc/latex/oberdiek/transparent.pdf
 %doc %{_texmfdistdir}/doc/latex/oberdiek/twoopt.pdf
@@ -679,6 +699,98 @@ running the .dtx file with Plain TeX.
 %doc %{_texmfdistdir}/source/latex/oberdiek/bitset.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/bmpsize.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/bookmark.dtx
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/accsupp.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/aliascnt.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/alphalph.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/askinclude.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/atbegshi.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/atenddvi.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/attachfile2.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/atveryend.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/auxhook.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/bigintcalc.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/bitset.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/bmpsize.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/bookmark.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/catchfile.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/centernot.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/chemarr.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/classlist.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/colonequals.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/dvipscol.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/embedfile.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/engord.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/eolgrab.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/epstopdf-pkg.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/etexcmds.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/flags.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/gettitlestring.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/grfext.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/grffile.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/hobsub.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/hologo.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/holtxdoc.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/hopatch.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/hycolor.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/hypbmsec.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/hypcap.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/hypdestopt.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/hypdoc.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/hypgotoe.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/hyphsubst.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/ifdraft.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/iflang.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/ifluatex.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/ifpdf.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/ifvtex.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/infwarerr.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/inputenx.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/intcalc.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/kvdefinekeys.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/kvoptions.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/kvsetkeys.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/letltxmacro.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/listingsutf8.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/ltxcmds.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/luacolor.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/luatex.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/magicnum.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/makerobust.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/mleftright.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/pagegrid.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/pagesel.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/pdfcol.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/pdfcolfoot.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/pdfcolmk.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/pdfcolparallel.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/pdfcolparcolumns.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/pdfcrypt.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/pdfescape.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/pdflscape.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/pdfrender.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/pdftexcmds.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/picture.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/pmboxdraw.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/protecteddef.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/refcount.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/rerunfilecheck.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/resizegather.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/rotchiffre.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/scrindex.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/selinput.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/setouterhbox.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/settobox.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/soulutf8.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/stackrel.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/stampinclude.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/stringenc.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/tabularht.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/tabularkv.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/telprint.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/transparent.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/twoopt.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/uniquecounter.xml
+%doc %{_texmfdistdir}/source/latex/oberdiek/catalogue/zref.xml
 %doc %{_texmfdistdir}/source/latex/oberdiek/catchfile.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/centernot.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/chemarr.dtx
@@ -687,9 +799,11 @@ running the .dtx file with Plain TeX.
 %doc %{_texmfdistdir}/source/latex/oberdiek/dvipscol.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/embedfile.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/engord.dtx
+%doc %{_texmfdistdir}/source/latex/oberdiek/enparen.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/eolgrab.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/epstopdf.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/etexcmds.dtx
+%doc %{_texmfdistdir}/source/latex/oberdiek/fibnum.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/flags.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/gettitlestring.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/grfext.dtx
@@ -756,6 +870,7 @@ running the .dtx file with Plain TeX.
 %doc %{_texmfdistdir}/source/latex/oberdiek/tabularht.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/tabularkv.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/telprint.dtx
+%doc %{_texmfdistdir}/source/latex/oberdiek/thepdfnumber.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/transparent.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/twoopt.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/uniquecounter.dtx
