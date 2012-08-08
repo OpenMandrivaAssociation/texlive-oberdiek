@@ -1,11 +1,11 @@
-# revision 26177
+# revision 26725
 # category Package
 # catalog-ctan /macros/latex/contrib/oberdiek
-# catalog-date 2012-03-30 15:19:52 +0200
+# catalog-date 2012-05-04 16:11:29 +0200
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-oberdiek
-Version:	20120330
+Version:	20120504
 Release:	1
 Summary:	A bundle of packages submitted by Heiko Oberdiek
 Group:		Publishing
@@ -110,8 +110,9 @@ the .aux file(s); - stringenc: provides \StringEncodingConvert
 for converting a string between different encodings; -
 tabularht: tabulars with height specification; - tabularkv: key
 value interface for tabular parameters; - telprint: print
-German telephone numbers; - transparent: using a color stack
-for transparency with pdftex; - twoopt: commands with two
+German telephone numbers; - thepdfnumber: canonical numbers for
+use in PDF files and elsewhere; - transparent: using a color
+stack for transparency with pdftex; - twoopt: commands with two
 optional arguments; - uniquecounter: provides unlimited unique
 counter; - zref: a proposed new reference system. Each of the
 packages is represented by two files, a .dtx (documented
