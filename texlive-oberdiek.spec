@@ -1,4 +1,4 @@
-# revision 26725
+# revision 30469
 # category Package
 # catalog-ctan /macros/latex/contrib/oberdiek
 # catalog-date 2012-05-04 16:11:29 +0200
@@ -810,6 +810,7 @@ TeX.
 %doc %{_texmfdistdir}/source/latex/oberdiek/grfext.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/grffile.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/hobsub.dtx
+%doc %{_texmfdistdir}/source/latex/oberdiek/hologo-eroux.patch
 %doc %{_texmfdistdir}/source/latex/oberdiek/hologo.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/holtxdoc.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/hopatch.dtx
@@ -851,6 +852,7 @@ TeX.
 %doc %{_texmfdistdir}/source/latex/oberdiek/pdfescape.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/pdflscape.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/pdfrender.dtx
+%doc %{_texmfdistdir}/source/latex/oberdiek/pdftexcmds-eroux.patch
 %doc %{_texmfdistdir}/source/latex/oberdiek/pdftexcmds.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/picture.dtx
 %doc %{_texmfdistdir}/source/latex/oberdiek/pmboxdraw.dtx
@@ -886,25 +888,3 @@ TeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex scripts tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120504-1
-+ Revision: 812690
-- Update to latest release.
-
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120330-1
-+ Revision: 804958
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110412-2
-+ Revision: 754451
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110412-1
-+ Revision: 719146
-- texlive-oberdiek
-- texlive-oberdiek
-- texlive-oberdiek
-- texlive-oberdiek
-
