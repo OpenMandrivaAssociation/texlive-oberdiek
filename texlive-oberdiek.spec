@@ -1,5 +1,5 @@
 Name:		texlive-oberdiek
-Version:	20180127
+Version:	20180405
 Release:	1
 Summary:	A bundle of packages submitted by Heiko Oberdiek
 Group:		Publishing
