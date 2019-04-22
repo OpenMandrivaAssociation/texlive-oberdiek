@@ -1,6 +1,6 @@
 Name:		texlive-oberdiek
-Version:	20180405
-Release:	2
+Version:	20181201
+Release:	1
 Summary:	A bundle of packages submitted by Heiko Oberdiek
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/oberdiek
