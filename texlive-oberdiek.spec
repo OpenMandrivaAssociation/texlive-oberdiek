@@ -1,13 +1,13 @@
 Name:		texlive-oberdiek
-Version:	20181201
+Version:	64463
 Release:	1
 Summary:	A bundle of packages submitted by Heiko Oberdiek
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/oberdiek
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/oberdiek.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/oberdiek.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/oberdiek.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/oberdiek.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/oberdiek.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/oberdiek.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -112,17 +112,16 @@ file; the .ins file necessary for installation is extracted by
 running the .dtx file with Plain TeX.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/bibtex/bib/oberdiek
-%{_texmfdistdir}/scripts/oberdiek
 %{_texmfdistdir}/tex/generic/oberdiek
 %{_texmfdistdir}/tex/latex/oberdiek
 %doc %{_texmfdistdir}/doc/latex/oberdiek
@@ -131,10 +130,11 @@ running the .dtx file with Plain TeX.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
-cp -fpar bibtex scripts tex doc source %{buildroot}%{_texmfdistdir}
+cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
