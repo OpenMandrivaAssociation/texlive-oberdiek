@@ -1,5 +1,5 @@
 Name:		texlive-oberdiek
-Version:	64463
+Version:	65521
 Release:	1
 Summary:	A bundle of packages submitted by Heiko Oberdiek
 Group:		Publishing

@@ -1,4 +1,5 @@
 sources:
-  oberdiek.doc.r64463.tar.xz: 238d03aaef6eb9038ecede23bf4f5c603c79e8e5
-  oberdiek.r64463.tar.xz: ba402ce1a08fa983ee22188ebd3dbd2d2155b3d6
-  oberdiek.source.r64463.tar.xz: 268c1b9c97c6f52cc688841b5756158ef346932d
+  files-before-rpm: 9be80818e5a4e67b3d07a2b7cb03d9f3e44d553c
+  oberdiek.doc.r65521.tar.xz: 4de13cb2ab0f7832dd299b7b3de18a336fc53bf2
+  oberdiek.r65521.tar.xz: 5fdfb37fb729e34d29f6fba859fbc0be6202a446
+  oberdiek.source.r65521.tar.xz: a007d669695f3cad209b9d42858c2c55f6f61462
