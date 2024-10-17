@@ -3,7 +3,7 @@ Version:	71916
 Release:	1
 Summary:	A bundle of packages submitted by Heiko Oberdiek
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/oberdiek
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/oberdiek
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/oberdiek.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/oberdiek.doc.r%{version}.tar.xz
